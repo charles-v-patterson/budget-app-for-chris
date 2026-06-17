@@ -83,7 +83,15 @@ The Vite dev server proxies `/api` to `http://localhost:3001`.
 | api | Fastify + Prisma | 3001 (internal) |
 | db | PostgreSQL 16 | 5432 (internal) |
 
-## Excel Template Mapping
+## Excel Template
+
+The original spreadsheet this app replaces is included in the repo:
+
+**[`docs/budget-plan-template.xlsx`](docs/budget-plan-template.xlsx)**
+
+It has four sheets: Budget Plans, Income Tracking, Expense Tracking, and Graphs. The web app mirrors that structure but starts blank — it does not pre-load the template’s placeholder categories or sample data.
+
+### Sheet mapping
 
 | Excel Sheet | App Page |
 |---|---|
